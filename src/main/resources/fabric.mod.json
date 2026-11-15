@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "fps_shower",
+  "version": "${version}",
+  "name": "FPS shower",
+  "description": "FPS show in upper left counter",
+  "license": "MIT",
+  "icon": "assets/fps_shower/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.fpsshower.FpsShowerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
